@@ -20,6 +20,6 @@ resource "docker_container" "my_app_container" {
 
 	ports {
 		internal = 5000
-		external = 8080
+		external = 8081
 	}
 }
